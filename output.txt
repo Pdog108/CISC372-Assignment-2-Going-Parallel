@@ -1,0 +1,130 @@
+Script started on 2023-03-13 19:03:50-04:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="99" LINES="20"]
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ exitsrun -n 1 ./pokerls[Krm -rf Assignment#2/ls[Krm -rf Assignment#2/ls[Ksrun -n 1 ./poker[C[C[C[C
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elasped Time 0.000480 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 1 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elasped Time 0.004038 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 1 ./poker
+Enter the number of trials:
+100000
+We found 2 straight flushes out of 100000 hands or 0.002000 percent.
+Elasped Time 0.028053 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 1 ./poker
+Enter the number of trials:
+1000000
+We found 20 straight flushes out of 1000000 hands or 0.002000 percent.
+Elasped Time 0.197325 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 1 ./poker
+Enter the number of trials:
+10000000
+We found 167 straight flushes out of 10000000 hands or 0.001670 percent.
+Elasped Time 1.525176 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 1 ./poker[C[1P ./poker2 ./poker[C[C[C[C[C[C[C[C
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elasped Time 0.000191 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 2 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elasped Time 0.001470 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 2 ./poker
+Enter the number of trials:
+100000
+We found 1 straight flushes out of 100000 hands or 0.001000 percent.
+Elasped Time 0.013817 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 2 ./poker
+Enter the number of trials:
+1000000
+We found 18 straight flushes out of 1000000 hands or 0.001800 percent.
+Elasped Time 0.138159 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 2 ./poker
+Enter the number of trials:
+10000000
+We found 144 straight flushes out of 10000000 hands or 0.001440 percent.
+Elasped Time 1.378034 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 2 ./poker[1P ./poker4 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elasped Time 0.000123 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 4 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elasped Time 0.000887 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 4 ./poker
+Enter the number of trials:
+100000
+We found 0 straight flushes out of 100000 hands or 0.000000 percent.
+Elasped Time 0.007134 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 4 ./poker
+Enter the number of trials:
+1000000
+We found 17 straight flushes out of 1000000 hands or 0.001700 percent.
+Elasped Time 0.083222 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 4 ./poker
+Enter the number of trials:
+10000000
+We found 141 straight flushes out of 10000000 hands or 0.001410 percent.
+Elasped Time 0.700638 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 4 ./poker[C[1P ./poker8 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elasped Time 0.000089 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 8 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elasped Time 0.000458 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 8 ./poker
+Enter the number of trials:
+100000
+We found 1 straight flushes out of 100000 hands or 0.001000 percent.
+Elasped Time 0.003937 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 8 ./poker
+Enter the number of trials:
+1000000
+We found 16 straight flushes out of 1000000 hands or 0.001600 percent.
+Elasped Time 0.038833 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 8 ./poker
+Enter the number of trials:
+10000000
+We found 158 straight flushes out of 10000000 hands or 0.001580 percent.
+Elasped Time 0.387298 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 8 ./poker[C[C[1P ./poker1 ./poker6 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elasped Time 0.000154 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ 10000[K[K[K[K[Ksrun -n 16 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elasped Time 0.000359 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 16 ./poker
+Enter the number of trials:
+100000
+We found 1 straight flushes out of 100000 hands or 0.001000 percent.
+Elasped Time 0.002379 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 16 ./poker
+Enter the number of trials:
+1000000
+We found 15 straight flushes out of 1000000 hands or 0.001500 percent.
+Elasped Time 0.022470 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ srun -n 16 ./poker
+Enter the number of trials:
+10000000
+We found 143 straight flushes out of 10000000 hands or 0.001430 percent.
+Elasped Time 0.223119 
+pdharris@cisc372:~/CISC372/CISC372-Assignment-2-Going-Parallel$ ei[Kxit
+exit
+
+Script done on 2023-03-13 19:09:24-04:00 [COMMAND_EXIT_CODE="0"]
